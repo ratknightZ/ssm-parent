@@ -244,4 +244,17 @@
             <version>1.2.47</version>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>release</id>
+            <name>release nexus repository</name>
+            <url>http://120.132.102.244:8081/nexus/content/repositories/public</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>snapshots nexus repository</name>
+            <url>http://120.132.102.244:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
